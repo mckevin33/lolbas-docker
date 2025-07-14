@@ -10,5 +10,5 @@ RUN wget --mirror --convert-links --adjust-extension --page-requisites --no-pare
     cp -r $dest_dir/* /usr/share/nginx/html/ && \
     cp -r $dest_dir/.[!.]* /usr/share/nginx/html/ || true
 
-EXPOSE 8080
+EXPOSE 80
 
